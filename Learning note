@@ -1,0 +1,14 @@
+Improve myself day1
+  Aim:Review C
+  1. I mainly review how C parameter transfer
+  2.Know the difference between Get adress and quote (&)
+  exmaple of No.2   
+  void swap(int &a,int &b){   //在这里&就是引用
+    temp=a;
+    a=b;
+    b=temp
+  }                          
+   
+  int *a=&b;  //取地址
+ 通常来说，取地址只在等号右边，引用在等号左边，其次取地址一般和指针相关。
+  
